@@ -1,0 +1,104 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Merriweather', serif;
+}
+
+body {
+  background: url("https://s3.amazonaws.com/codecademy-content/projects/junction/bg.jpg");
+	background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.header {
+   background-color: rgba(0,0,0,.5);
+}
+
+.nav {
+  display: inline-block;
+  color: #fff;
+}
+
+.nav li {
+  display: inline;
+  padding: 23px 20px 23px 20px;
+}
+
+.nav li:hover {
+  background-color: rgba(21, 17, 0, 0.7);
+}
+
+.logo {
+  height: 3em;
+  width: 3em;
+  margin: 0 20px 0 20px;
+}
+
+.header .container {
+  position: relative;
+  left: 170px;
+}
+
+.container {
+  max-width:940px;
+}
+
+/* Header */
+.header {
+  padding: 10px 0;
+}
+
+/* Jumbotron */
+.jumbotron {
+  position: relative;
+  top: 50px;
+  text-shadow: 0 2px 3px rgba(0,0,0,.4);
+  background-color: transparent;
+  color: #fff;
+  text-align: center;
+}
+
+/* Supporting */
+.supporting {
+  margin-top: 40px;
+  text-shadow: 0 2px 3px rgba(0,0,0,.4);
+}
+
+.supporting .col-md-4 img {
+  height: 150px;
+  width: 150px;
+  border-radius: 100%;
+}
+
+.supporting .col-md-4 img:hover {
+  background-color: rgba(21, 17, 0, 0.7);
+}
+
+.supporting .col-md-4 {
+  color: #fff;
+  position: relative;
+  text-align: center;
+}
+
+.download {
+  text-align: center;
+  height: 200px;
+}
+
+.download .btn {
+  background-color: rgba(0,255,188,0.5);
+  position: relative;
+  top: 45px;
+  padding: 15px 30px 15px 30px;
+  border-radius: 7px;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  font-family: courier;
+  font-weight: bold;
+  font-size: 20px;
+  color: #fff;
+}
+
+.download .btn:hover {
+  background-color: rgba(21, 17, 0, 0.3);
+}
